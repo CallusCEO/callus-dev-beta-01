@@ -1,50 +1,37 @@
-# Welcome to your Expo app 👋
+# Overview
+Callus is a simple and sleek productivity application available on both mobile and desktop platforms. Designed to enhance the productivity of entrepreneurs and professionals, Callus offers a comprehensive set of tools to help users stay organized and focused. The app aims to be accessible to a wide audience with a free version while offering advanced features in a pro version tailored for professionals.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Key Features
+- **Real-Time Timetable with Notifications**: Stay on top of your schedule with real-time updates and notifications.
+- **To-Do List**: Manage your tasks efficiently with categorization, check-boxes, and drag-and-drop functionality.
+- **Goal Setting**: Define and track your short-term and long-term goals with visual progress indicators.
+- **Calendar**: Manage your events in monthly, weekly, or daily views with reminders and notifications.
+- **Integrated Notebook**: A distraction-free writing space for quick notes with Markdown support.
+- **Deep Work Timer**: Enhance your focus with a built-in Pomodoro-style timer and customizable break intervals.
+- **Inspirational Quotes**: Start your day with a motivational quote each time you open the app.
+- **AI Assistant (Pro Version)**: Receive intelligent suggestions and productivity techniques tailored to your tasks and schedule.
 
-## Get started
+## Design Philosophy
+Callus embraces a minimalist design philosophy, utilizing cards and containers with a clean black and white theme. This design ensures a distraction-free experience, allowing users to focus on their tasks and goals.
 
-1. Install dependencies
+## App Flow
 
-   ```bash
-   npm install
-   ```
+### Splash Screen
+Users are greeted with a clean, black-and-white Callus logo and the inspiring slogan: "Express your thoughts." The splash screen seamlessly transitions to the authentication screen.
 
-2. Start the app
+### Authentication System
+- **Login**: Users can log in with their email and password.
+- **Sign Up**: New users can create an account easily.
+- **Password Recovery**: A straightforward recovery system for forgotten passwords.
 
-   ```bash
-    npx expo start
-   ```
+### Dashboard
+Once authenticated, users are directed to a structured dashboard that provides an overview of their schedule, tasks, and notes. The navigation bar offers quick access to different sections of the app.
 
-In the output, you'll find options to open the app in a
+## Development Plan
+Our development plan is outlined in the CONTEXT.md file. It includes phases for learning and environment setup, UI and navigation setup, core features implementation, backend integration, testing, debugging, optimization, and deployment.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Future Updates
+We have exciting plans for future updates, including:
+- **Dark Mode Customization**: Personalize your experience with a dark mode option.
+- **Collaborative Task Management**: Work together with your team on shared tasks.
+- **Voice-to-Text Note-Taking**: Easily capture your thoughts with voice-to-text functionality.
