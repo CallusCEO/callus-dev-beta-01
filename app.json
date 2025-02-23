@@ -1,41 +1,38 @@
 {
-  "expo": {
-    "name": "callus-dev-beta-01",
-    "slug": "callus-dev-beta-01",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
-    "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
-    },
-    "web": {
-      "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
-    },
-    "plugins": [
-      "expo-router",
-      [
-        "expo-splash-screen",
-        {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
-        }
-      ]
-    ],
-    "experiments": {
-      "typedRoutes": true
-    }
-  }
+	"expo": {
+		"name": "callus-dev-beta-01",
+		"slug": "callus-dev-beta-01",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/images/Logo-Callus.jpg",
+		"scheme": "myapp",
+		"userInterfaceStyle": "automatic",
+		"newArchEnabled": true,
+
+		"ios": {
+			"supportsTablet": true
+		},
+
+		"splash": {
+			"image": "./assets/images/Logo-Callus.jpg",
+			"resizeMode": "contain",
+			"backgroundColor": "#111"
+		},
+
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/images/Logo-Callus.jpg",
+				"backgroundColor": "#111"
+			}
+		},
+		"web": {
+			"bundler": "metro",
+			"output": "static",
+			"favicon": "./assets/images/favicon.png"
+		},
+		"plugins": ["expo-router"],
+		"experiments": {
+			"typedRoutes": true
+		}
+	}
 }
