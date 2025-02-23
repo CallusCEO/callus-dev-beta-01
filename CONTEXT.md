@@ -255,8 +255,12 @@ Callus is a productivity application available on both mobile and desktop. Desig
 
 # -----------> FOLDER STRUCTURE **!!( To FINISH )!!** <---------------
 
-callus-dev-beta/
+callus-dev-beta-01/
 │── app/
+│   ├── auth/
+│   │   ├── login.tsx
+│   │   ├── signup.tsx
+│   │   ├── forgot-pwd.tsx
 │   ├── features/
 │   │   ├── timetable/
 │   │   │   ├── index.tsx
@@ -274,16 +278,65 @@ callus-dev-beta/
 │   │   │   │   ├── useTasks.ts
 │   │   │   ├── services/
 │   │   │   │   ├── tasks.ts
-│   ├── auth/
-│   │   ├── log-in.tsx  // --> meretricious for now
-│   │   ├── sign-up.tsx
-│   │   ├── forgot-password.tsx
-│   ├── settings.tsx
+│   │   ├── goals/
+│   │   │   ├── index.tsx
+│   │   │   ├── components/
+│   │   │   │   ├── GoalItem.tsx
+│   │   │   ├── hooks/
+│   │   │   │   ├── useGoals.ts
+│   │   │   ├── services/
+│   │   │   │   ├── goals.ts
+│   │   ├── calendar/
+│   │   │   ├── index.tsx
+│   │   │   ├── components/
+│   │   │   │   ├── CalendarItem.tsx
+│   │   │   ├── hooks/
+│   │   │   │   ├── useCalendar.ts
+│   │   │   ├── services/
+│   │   │   │   ├── calendar.ts
+│   │   ├── notebook/
+│   │   │   ├── index.tsx
+│   │   │   ├── components/
+│   │   │   │   ├── NoteItem.tsx
+│   │   │   ├── hooks/
+│   │   │   │   ├── useNotebook.ts
+│   │   │   ├── services/
+│   │   │   │   ├── notebook.ts
+│   │   ├── timer/
+│   │   │   ├── index.tsx
+│   │   │   ├── components/
+│   │   │   │   ├── TimerItem.tsx
+│   │   │   ├── hooks/
+│   │   │   │   ├── useTimer.ts
+│   │   │   ├── services/
+│   │   │   │   ├── timer.ts
+│   │   ├── quotes/
+│   │   │   ├── index.tsx
+│   │   │   ├── components/
+│   │   │   │   ├── QuoteItem.tsx
+│   │   │   ├── hooks/
+│   │   │   │   ├── useQuotes.ts
+│   │   │   ├── services/
+│   │   │   │   ├── quotes.ts
 │── components/
-│   ├── Button.tsx
-│   ├── Card.tsx
-│   ├── Modal.tsx
-│   ├── Header.tsx
+│   ├── ui/
+│   │   ├── TabBarBackground.tsx
+│   │   ├── TabBarBackground.ios.tsx
+│   │   ├── IconSymbol.tsx
+│   │   ├── IconSymbol.ios.tsx
+│   ├── ThemedView.tsx
+│   ├── ThemedText.tsx
+│   ├── ParallaxScrollView.tsx
+│   ├── HelloWave.tsx
+│   ├── HapticTab.tsx
+│   ├── ExternalLink.tsx
+│   ├── Collapsible.tsx
+│── constants/
+│   ├── Colors.ts
+│── hooks/
+│   ├── useThemeColor.ts
+│   ├── useColorScheme.ts
+│   ├── useColorScheme.web.ts
 │── context/
 │   ├── AuthContext.tsx
 │   ├── ThemeContext.tsx
@@ -299,17 +352,14 @@ callus-dev-beta/
 │── assets/
 │   ├── logo.png
 │   ├── icons/
-│── constants/
-│   ├── quotes.ts
-│   ├── categories.ts
 │── styles/
 │   ├── colors.ts
 │   ├── typography.ts
 │── App.tsx
 │── package.json
-|── package-lock.json
+│── package-lock.json
 │── tsconfig.json
 │── .eslintrc.js
 │── .gitignore
-│── README.md <MD>
-│── CONTEXT.md <MD>
+│── README.md
+│── CONTEXT.md
